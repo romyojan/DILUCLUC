@@ -1,10 +1,10 @@
 import re
 import telebot
 from telebot import types
-from FONT.ConvertToBold import *
-from USER.CheckPremium import *
-from COMMANDS.PHILBOSS17 import *
-from COMMANDS.PHILBossCommand import *
+from ConvertToBold import *
+from CheckPremium import *
+from PHILBOSS17 import *
+from PHILBossCommand import *
 
 TOKEN = #BOT_TOKEN
 bot = telebot.TeleBot(TOKEN)
